@@ -1,0 +1,48 @@
+Sep 14 13:49:17.054 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Sep 14 13:49:17.054 HYPERVISOR: Started on IP = localhost, TCP port = 44617.
+Sep 14 13:49:17.064 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 14 13:49:17.065 HYPERVISOR: exec_cmd: hypervisor working_dir /home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips 
+Sep 14 13:49:17.065 GENERAL: working_dir=/home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips
+Sep 14 13:49:17.066 HYPERVISOR: exec_cmd: hypervisor working_dir /home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips/2fee815f-33ab-4132-a102-a3b22687f998 
+Sep 14 13:49:17.066 GENERAL: working_dir=/home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips/2fee815f-33ab-4132-a102-a3b22687f998
+Sep 14 13:49:17.066 HYPERVISOR: exec_cmd: vm create R12 13 c3600 
+Sep 14 13:49:17.066 VM: VM R12 created.
+Sep 14 13:49:17.067 HYPERVISOR: exec_cmd: vm set_con_tcp_port R12 5012 
+Sep 14 13:49:17.068 HYPERVISOR: exec_cmd: c3600 get_mac_addr R12 
+Sep 14 13:49:17.069 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:49:17.070 HYPERVISOR: exec_cmd: vm get_status R12 
+Sep 14 13:49:17.070 HYPERVISOR: exec_cmd: vm set_idle_pc R12 0x605d3700 
+Sep 14 13:49:17.071 HYPERVISOR: exec_cmd: vm set_ram R12 172 
+Sep 14 13:49:17.072 HYPERVISOR: exec_cmd: vm set_nvram R12 256 
+Sep 14 13:49:17.072 HYPERVISOR: exec_cmd: vm get_status R12 
+Sep 14 13:49:17.073 HYPERVISOR: exec_cmd: vm slot_add_binding R12 0 0 NM-4E 
+Sep 14 13:49:17.074 HYPERVISOR: exec_cmd: vm get_status R12 
+Sep 14 13:49:17.074 HYPERVISOR: exec_cmd: vm slot_add_binding R12 1 0 NM-1FE-TX 
+Sep 14 13:49:17.075 HYPERVISOR: exec_cmd: vm get_status R12 
+Sep 14 13:49:17.075 HYPERVISOR: exec_cmd: vm slot_add_binding R12 2 0 NM-16ESW 
+Sep 14 13:49:17.076 HYPERVISOR: exec_cmd: vm get_status R12 
+Sep 14 13:49:17.076 HYPERVISOR: exec_cmd: vm slot_add_binding R12 3 0 NM-4T 
+Sep 14 13:49:17.204 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:49:32.646 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:49:34.899 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:49:44.936 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:50:12.029 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:50:13.960 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:50:23.229 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:51:22.311 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:51:30.805 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:51:45.016 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:56:14.898 HYPERVISOR: exec_cmd: nio create_udp udp-5b9529a3-5438-4e99-a294-12ab43e7938b 10052 127.0.0.1 10053 
+Sep 14 13:56:15.121 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R12 3 1 udp-5b9529a3-5438-4e99-a294-12ab43e7938b 
+Sep 14 13:56:15.122 HYPERVISOR: exec_cmd: vm get_status R12 
+Sep 14 13:56:29.868 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:57:44.952 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 14:00:33.611 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 14:01:14.319 HYPERVISOR: exec_cmd: vm set_ios R12 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 14:02:32.930 HYPERVISOR: exec_cmd: vm get_status R12 
+Sep 14 14:02:32.930 HYPERVISOR: exec_cmd: vm extract_config R12 
+Sep 14 14:02:32.931 HYPERVISOR: exec_cmd: vm delete R12 
+Sep 14 14:02:32.931 VM: VM R12 destroyed.
+Sep 14 14:02:32.933 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 14 14:02:33.387 HYPERVISOR: Stopped.
+Sep 14 14:02:33.387 GENERAL: reset done.

@@ -1,0 +1,52 @@
+Sep 14 13:48:48.285 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Sep 14 13:48:48.285 HYPERVISOR: Started on IP = localhost, TCP port = 36547.
+Sep 14 13:48:48.297 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 14 13:48:48.298 HYPERVISOR: exec_cmd: hypervisor working_dir /home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips 
+Sep 14 13:48:48.298 GENERAL: working_dir=/home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips
+Sep 14 13:48:48.298 HYPERVISOR: exec_cmd: hypervisor working_dir /home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips/43db28d1-6db3-40ed-b2dd-efa90b0e3701 
+Sep 14 13:48:48.298 GENERAL: working_dir=/home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips/43db28d1-6db3-40ed-b2dd-efa90b0e3701
+Sep 14 13:48:48.299 HYPERVISOR: exec_cmd: vm create R11 12 c3600 
+Sep 14 13:48:48.299 VM: VM R11 created.
+Sep 14 13:48:48.300 HYPERVISOR: exec_cmd: vm set_con_tcp_port R11 5011 
+Sep 14 13:48:48.300 HYPERVISOR: exec_cmd: c3600 get_mac_addr R11 
+Sep 14 13:48:48.301 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:48:48.302 HYPERVISOR: exec_cmd: vm get_status R11 
+Sep 14 13:48:48.303 HYPERVISOR: exec_cmd: vm set_idle_pc R11 0x605d3700 
+Sep 14 13:48:48.303 HYPERVISOR: exec_cmd: vm set_ram R11 172 
+Sep 14 13:48:48.304 HYPERVISOR: exec_cmd: vm set_nvram R11 256 
+Sep 14 13:48:48.305 HYPERVISOR: exec_cmd: vm get_status R11 
+Sep 14 13:48:48.306 HYPERVISOR: exec_cmd: vm slot_add_binding R11 0 0 NM-4E 
+Sep 14 13:48:48.306 HYPERVISOR: exec_cmd: vm get_status R11 
+Sep 14 13:48:48.307 HYPERVISOR: exec_cmd: vm slot_add_binding R11 1 0 NM-1FE-TX 
+Sep 14 13:48:48.307 HYPERVISOR: exec_cmd: vm get_status R11 
+Sep 14 13:48:48.308 HYPERVISOR: exec_cmd: vm slot_add_binding R11 2 0 NM-16ESW 
+Sep 14 13:48:48.308 HYPERVISOR: exec_cmd: vm get_status R11 
+Sep 14 13:48:48.309 HYPERVISOR: exec_cmd: vm slot_add_binding R11 3 0 NM-4T 
+Sep 14 13:48:48.433 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:48:50.273 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:48:53.238 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:49:06.412 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:49:26.210 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:49:27.799 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:50:12.034 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:50:13.965 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:50:23.235 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:51:22.316 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:51:30.810 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:51:45.023 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:55:59.099 HYPERVISOR: exec_cmd: nio create_udp udp-7a166d2c-1da2-4296-89e1-d37271faa85c 10046 127.0.0.1 10047 
+Sep 14 13:55:59.321 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 3 1 udp-7a166d2c-1da2-4296-89e1-d37271faa85c 
+Sep 14 13:55:59.322 HYPERVISOR: exec_cmd: vm get_status R11 
+Sep 14 13:56:14.883 HYPERVISOR: exec_cmd: nio create_udp udp-18a8e65d-4de8-4de0-96dc-cedb1a10e5b6 10050 127.0.0.1 10051 
+Sep 14 13:56:14.886 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R11 3 2 udp-18a8e65d-4de8-4de0-96dc-cedb1a10e5b6 
+Sep 14 13:56:14.886 HYPERVISOR: exec_cmd: vm get_status R11 
+Sep 14 13:57:44.957 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 14:00:33.623 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 14:01:14.325 HYPERVISOR: exec_cmd: vm set_ios R11 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 14:02:32.635 HYPERVISOR: exec_cmd: vm get_status R11 
+Sep 14 14:02:32.636 HYPERVISOR: exec_cmd: vm extract_config R11 
+Sep 14 14:02:32.636 HYPERVISOR: exec_cmd: vm delete R11 
+Sep 14 14:02:32.636 VM: VM R11 destroyed.
+Sep 14 14:02:32.638 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 14 14:02:32.665 HYPERVISOR: Stopped.
+Sep 14 14:02:32.665 GENERAL: reset done.

@@ -1,0 +1,47 @@
+Sep 14 14:02:52.698 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Sep 14 14:02:52.698 HYPERVISOR: Started on IP = localhost, TCP port = 34473.
+Sep 14 14:02:52.710 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 14 14:02:52.710 HYPERVISOR: exec_cmd: hypervisor working_dir /home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips 
+Sep 14 14:02:52.710 GENERAL: working_dir=/home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips
+Sep 14 14:02:52.711 HYPERVISOR: exec_cmd: hypervisor working_dir /home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips/2a75f007-c2bc-47ee-9a8a-583b585b6553 
+Sep 14 14:02:52.711 GENERAL: working_dir=/home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips/2a75f007-c2bc-47ee-9a8a-583b585b6553
+Sep 14 14:02:52.711 HYPERVISOR: exec_cmd: vm create ISP 2 c3600 
+Sep 14 14:02:52.711 VM: VM ISP created.
+Sep 14 14:02:52.712 HYPERVISOR: exec_cmd: vm set_con_tcp_port ISP 5001 
+Sep 14 14:02:52.712 HYPERVISOR: exec_cmd: c3600 get_mac_addr ISP 
+Sep 14 14:02:52.713 HYPERVISOR: exec_cmd: vm get_status ISP 
+Sep 14 14:02:52.713 HYPERVISOR: exec_cmd: vm set_idle_pc ISP 0x605d3700 
+Sep 14 14:02:52.714 HYPERVISOR: exec_cmd: vm set_ios ISP /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 14:02:52.715 HYPERVISOR: exec_cmd: c3600 set_mac_addr ISP cc02.16b8.0000 
+Sep 14 14:02:52.715 HYPERVISOR: exec_cmd: vm set_nvram ISP 256 
+Sep 14 14:02:52.716 HYPERVISOR: exec_cmd: vm set_ram ISP 172 
+Sep 14 14:02:52.716 HYPERVISOR: exec_cmd: vm get_status ISP 
+Sep 14 14:02:52.716 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 0 0 NM-4E 
+Sep 14 14:02:52.717 HYPERVISOR: exec_cmd: vm get_status ISP 
+Sep 14 14:02:52.717 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 1 0 NM-1FE-TX 
+Sep 14 14:02:52.718 HYPERVISOR: exec_cmd: vm get_status ISP 
+Sep 14 14:02:52.718 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 2 0 NM-16ESW 
+Sep 14 14:02:52.719 HYPERVISOR: exec_cmd: vm get_status ISP 
+Sep 14 14:02:52.720 HYPERVISOR: exec_cmd: vm slot_add_binding ISP 3 0 NM-4T 
+Sep 14 14:02:53.433 HYPERVISOR: exec_cmd: nio create_udp udp-2ff7536f-de9c-44b7-a2b4-96096c931a44 10002 127.0.0.1 10003 
+Sep 14 14:02:53.655 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ISP 3 0 udp-2ff7536f-de9c-44b7-a2b4-96096c931a44 
+Sep 14 14:02:53.657 HYPERVISOR: exec_cmd: vm get_status ISP 
+Sep 14 14:03:14.859 HYPERVISOR: exec_cmd: vm set_ghost_status ISP 2 
+Sep 14 14:03:14.860 HYPERVISOR: exec_cmd: vm set_ghost_file ISP /home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips/c3640-ik9o3s-mz124-13.image-172.ghost 
+Sep 14 14:03:14.861 HYPERVISOR: exec_cmd: vm get_status ISP 
+Sep 14 14:03:14.862 HYPERVISOR: exec_cmd: vm set_config ISP configs/i2_startup-config.cfg 
+Sep 14 14:03:14.862 HYPERVISOR: exec_cmd: vm start ISP 
+Sep 14 14:03:45.075 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Sep 14 14:09:22.399 HYPERVISOR: exec_cmd: vm get_status ISP 
+Sep 14 14:09:22.401 HYPERVISOR: exec_cmd: vm stop ISP 
+Sep 14 14:09:22.500 VM: VM ISP shutdown.
+Sep 14 14:09:22.503 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Sep 14 14:09:34.588 HYPERVISOR: exec_cmd: vm get_status ISP 
+Sep 14 14:09:34.590 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Sep 14 14:09:34.894 HYPERVISOR: exec_cmd: vm get_status ISP 
+Sep 14 14:09:34.894 HYPERVISOR: exec_cmd: vm extract_config ISP 
+Sep 14 14:09:34.896 HYPERVISOR: exec_cmd: vm delete ISP 
+Sep 14 14:09:34.896 VM: VM ISP destroyed.
+Sep 14 14:09:34.898 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 14 14:09:35.062 HYPERVISOR: Stopped.
+Sep 14 14:09:35.062 GENERAL: reset done.

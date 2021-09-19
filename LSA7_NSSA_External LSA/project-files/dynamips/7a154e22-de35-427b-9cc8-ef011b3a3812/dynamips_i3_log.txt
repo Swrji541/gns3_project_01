@@ -1,0 +1,60 @@
+Sep 14 13:40:57.441 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Sep 14 13:40:57.441 HYPERVISOR: Started on IP = localhost, TCP port = 34865.
+Sep 14 13:40:57.453 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 14 13:40:57.454 HYPERVISOR: exec_cmd: hypervisor working_dir /home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips 
+Sep 14 13:40:57.454 GENERAL: working_dir=/home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips
+Sep 14 13:40:57.454 HYPERVISOR: exec_cmd: hypervisor working_dir /home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips/7a154e22-de35-427b-9cc8-ef011b3a3812 
+Sep 14 13:40:57.454 GENERAL: working_dir=/home/swrji/GNS3/projects/LSA7_NSSA_External LSA/project-files/dynamips/7a154e22-de35-427b-9cc8-ef011b3a3812
+Sep 14 13:40:57.455 HYPERVISOR: exec_cmd: vm create R3 3 c3600 
+Sep 14 13:40:57.455 VM: VM R3 created.
+Sep 14 13:40:57.456 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Sep 14 13:40:57.456 HYPERVISOR: exec_cmd: c3600 get_mac_addr R3 
+Sep 14 13:40:57.458 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:40:57.459 HYPERVISOR: exec_cmd: vm get_status R3 
+Sep 14 13:40:57.459 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x605d3700 
+Sep 14 13:40:57.460 HYPERVISOR: exec_cmd: vm set_ram R3 172 
+Sep 14 13:40:57.461 HYPERVISOR: exec_cmd: vm set_nvram R3 256 
+Sep 14 13:40:57.462 HYPERVISOR: exec_cmd: vm get_status R3 
+Sep 14 13:40:57.463 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 NM-4E 
+Sep 14 13:40:57.464 HYPERVISOR: exec_cmd: vm get_status R3 
+Sep 14 13:40:57.464 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 NM-1FE-TX 
+Sep 14 13:40:57.465 HYPERVISOR: exec_cmd: vm get_status R3 
+Sep 14 13:40:57.465 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 NM-16ESW 
+Sep 14 13:40:57.465 HYPERVISOR: exec_cmd: vm get_status R3 
+Sep 14 13:40:57.466 HYPERVISOR: exec_cmd: vm slot_add_binding R3 3 0 NM-4T 
+Sep 14 13:40:57.539 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:41:28.516 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:42:17.626 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:44:04.270 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:44:17.311 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:44:20.810 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:47:22.261 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:50:02.045 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:50:12.680 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:50:24.461 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:50:42.900 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:51:23.000 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:51:31.486 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:51:45.778 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 13:52:01.853 HYPERVISOR: exec_cmd: nio create_udp udp-ea5ee460-c545-487b-bd36-ffc029c26213 10016 127.0.0.1 10017 
+Sep 14 13:52:02.077 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 3 2 udp-ea5ee460-c545-487b-bd36-ffc029c26213 
+Sep 14 13:52:02.078 HYPERVISOR: exec_cmd: vm get_status R3 
+Sep 14 13:53:15.788 HYPERVISOR: exec_cmd: vm get_status R3 
+Sep 14 13:53:15.788 HYPERVISOR: exec_cmd: vm slot_remove_nio_binding R3 3 2 
+Sep 14 13:53:15.790 HYPERVISOR: exec_cmd: nio delete udp-ea5ee460-c545-487b-bd36-ffc029c26213 
+Sep 14 13:54:21.556 HYPERVISOR: exec_cmd: nio create_udp udp-1062c2a2-0d29-4d75-a8aa-9c4440bab39c 10016 127.0.0.1 10017 
+Sep 14 13:54:21.559 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 3 2 udp-1062c2a2-0d29-4d75-a8aa-9c4440bab39c 
+Sep 14 13:54:21.559 HYPERVISOR: exec_cmd: vm get_status R3 
+Sep 14 13:56:44.039 HYPERVISOR: exec_cmd: nio create_udp udp-d1ec52f7-dfbb-49ed-b1c9-f780405536ef 10056 127.0.0.1 10057 
+Sep 14 13:56:44.041 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 3 0 udp-d1ec52f7-dfbb-49ed-b1c9-f780405536ef 
+Sep 14 13:56:44.042 HYPERVISOR: exec_cmd: vm get_status R3 
+Sep 14 13:57:45.717 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 14:00:34.349 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 14:01:15.073 HYPERVISOR: exec_cmd: vm set_ios R3 /home/swrji/GNS3/images/IOS/c3640-ik9o3s-mz124-13.image 
+Sep 14 14:02:32.645 HYPERVISOR: exec_cmd: vm get_status R3 
+Sep 14 14:02:32.645 HYPERVISOR: exec_cmd: vm extract_config R3 
+Sep 14 14:02:32.646 HYPERVISOR: exec_cmd: vm delete R3 
+Sep 14 14:02:32.646 VM: VM R3 destroyed.
+Sep 14 14:02:32.647 HYPERVISOR: exec_cmd: hypervisor stop 
+Sep 14 14:02:32.810 HYPERVISOR: Stopped.
+Sep 14 14:02:32.810 GENERAL: reset done.
